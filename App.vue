@@ -19,6 +19,7 @@ export default {
     const create = (config) => {
       const { component, ...dataObject } = config
 
+      // Convert scopedSlots objects to functions that return a
       if (dataObject.scopedSlots) {
         const keys = Object.keys(dataObject.scopedSlots)
 
