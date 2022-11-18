@@ -11,7 +11,7 @@
     "webpack": "^4.39.1"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "dev": "webpack && node render-html.js"
